@@ -1,7 +1,23 @@
-function App() {
+import Square from "./components/Square";
+
+export default function Board(){
   return (
-    <h1>Hello world</h1>
+    <>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+    </>
   );
 }
-
-export default App;
